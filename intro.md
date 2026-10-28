@@ -8,9 +8,9 @@ This chapter bridges the gap between theoretical index replication and practical
 ## **🎛️ From Cost of Carry to Risk Control and Synthetic Positions**
 This notebook bridges theory and application by taking the cost of carry equation developed in Chapter Two and modifying it to include a crucial real-world friction: the dynamic arbitrage band ($\Delta_t$). We explore how this modified equation serves as the mechanical foundation for using futures to control portfolio risk and build synthetic positions. Crucially, we dive into the mechanics of $\Delta_t$ as a moving target that heavily depends on market sentiment. You will see how the financial infrastructure tilts under pressure, causing the arbitrage bands to widen in the specific direction of market stress:
 
-- **Risk-On (Positive Friction):** When markets surge, futures become expensive as Cash & Carry arbitrageurs drive up prime broker lending rates.
+- **Risk-On (Positive Friction):** When markets surge, prime brokers' balance sheets expand  and arbitrage bands tighten.
 
-- **Risk-Off (Negative Friction):** When markets panic, futures become cheap as Reverse Cash & Carry arbitrageurs spike the borrow fees on the underlying equities.
+- **Risk-Off (Negative Friction):** When markets panic, prime brokers' balance sheets contract and arbitrage bands widen.
 
 Understanding how these dynamic bands expand and contract is the essential first step in mastering synthetic replication and understanding tracking error.
 
@@ -48,4 +48,5 @@ Think of this Jupyter Book as a unique hybrid learning tool. It navigates like a
 :color: primary
 
 ```{include} jupyter_instructions.md
+```
 :::
