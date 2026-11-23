@@ -19,3 +19,9 @@ notebooks/*.json
 
 
 notebooks/cache/
+# Dynamically downloaded function markdown files
+FredReader.md
+MASSIVEReader.md
+one_y_axis.md
+static_futures_data.md
+
