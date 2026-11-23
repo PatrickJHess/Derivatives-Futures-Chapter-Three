@@ -42,6 +42,9 @@ project:
           url: https://patrickjhess.github.io/Derivatives-Futures-Chapter-One/
         - title: 'Chapter Two:📈 Visualizing the Concepts and Applying the Model: Arbitrage and the Cost of Carry'
           url: https://patrickjhess.github.io/Derivatives-Futures-Chapter-Two/
+        - title: 'Chapters Four: 📊 Fixed Income Futures'
+          url: https://patrickjhess.github.io/Derivatives-Futures-Chapter-Four/
+
 
   jupyter:
     binder:
