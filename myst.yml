@@ -31,7 +31,7 @@ project:
         - title: '🧭 Using Futures to Isolate Sources of Risk and Return'
           file: notebooks/span_risk_return.ipynb
         - title: '🎓 Capstone: The Out-of-Sample Forecasting Challenge'
-          file: notebooks/Chapter_Challenge.ipynb
+          file: Capstone_Risk_Spanning.md
         - title: 📝 Chapter Summary
           file: Chapter_Summary.md
         - title: Imported Functions
