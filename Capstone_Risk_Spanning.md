@@ -103,8 +103,7 @@ Here is your checklist:
 
 ### 3.&ensp;⚖️ Use OLS to Estimate Futures Allocations
 <blockquote>
-When you fit the model, t        - title: 'Chapters Four: 📊 Fixed Income Futures'
-          url: https://patrickjhess.github.io/Derivatives-Futures-Chapter-Four/he results object will generate a massive summary. You only need to extract three specific attributes to measure your success:
+When you fit the modelyou only need to extract three specific attributes to measure your success:
 
 - **The Allocations:** Use <code>results.params</code> to get the constant and the computed weights for each futures contract.
 - **The Standard Errors:** Use <code>results.bse</code> to check the statistical standard error of those allocations.
