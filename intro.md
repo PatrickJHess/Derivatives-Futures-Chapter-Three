@@ -48,5 +48,4 @@ Think of this Jupyter Book as a unique hybrid learning tool. It navigates like a
 :color: primary
 
 ```{include} jupyter_instructions.md
-```
 :::
