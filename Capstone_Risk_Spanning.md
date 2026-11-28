@@ -67,6 +67,7 @@ Here is a reminder of what you need to set up:
   * `fred_data` using `fq.FredReader()`
   * `massive_data` using `fq.MASSIVEReader(calls_per_minute=5)`
   * `static_futures_data` from `fq.static_futures_data`
+  * `fq.futures_session_end_index`
 
 **2. Required Functions**
 Ensure the following custom functions defined in the **Using Futures to Isolate Sources of Risk and Return** notebook are loaded into this:
